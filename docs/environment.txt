@@ -1,0 +1,46 @@
+Current Working Directory:
+/home/danny/github/StoneRDF
+
+Directory Tree:
+.
+├── BaselineOfStoneRDF.package
+│   └──  BaselineOfStoneRDF.class.st 
+├── docs
+│   ├── environment.txt
+│   ├── notes.md
+│   ├── playground-script.st
+│   ├── prompts.md
+│   └── todo.md
+├── environment.sh
+├── LICENSE
+├── README.md
+├── repopack.config.json
+├── src
+│   ├── StoneRDF-Core
+│   │   ├── NamedGraph.st
+│   │   ├── RDFLiteral.st
+│   │   ├── RDFNamespace.st
+│   │   ├── RDFProperty.st
+│   │   ├── RDFResource.st
+│   │   ├── RDFSClass.st
+│   │   ├── RDFSProperty.st
+│   │   ├── RDFStoreRDFSInference.st
+│   │   ├── RDFStore.st
+│   │   ├── RDFTriple.st
+│   │   ├── RDFTypedLiteral.st
+│   │   └── SPARQLQuery.st
+│   ├── StoneRDF-Examples
+│   │   ├── create-add-triples.st
+│   │   ├── create-execute-query.st
+│   │   ├── create-resource-literal.st
+│   │   ├── create-triple.st
+│   │   ├── define-classes-properties.st
+│   │   ├── named-graphs.st
+│   │   ├── namespaces.st
+│   │   ├── print-triple.st
+│   │   ├── rdf-dataypes.st
+│   │   └── store-create-resources-literals.st
+│   └── StoneRDF-Tests
+└── stonerdf-repopack.txt
+
+7 directories, 33 files
