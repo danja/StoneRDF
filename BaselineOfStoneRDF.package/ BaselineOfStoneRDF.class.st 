@@ -1,0 +1,19 @@
+Class {
+  #name : #BaselineOfStoneRDF,
+  #superclass : #BaselineOf,
+  #category : #BaselineOfStoneRDF
+}
+
+{ #category : #baselines }
+BaselineOfStoneRDF >> baseline: spec [
+  <baseline>
+  spec for: #common do: [
+    spec
+      package: 'StoneRDF-Core';
+      package: 'StoneRDF-Tests' with: [ spec requires: #('StoneRDF-Core') ].
+    spec
+      group: 'default' with: #('Core' 'Tests');
+      group: 'Core' with: #('StoneRDF-Core');
+      group: 'Tests' with: #('StoneRDF-Tests')
+  ]
+]

@@ -1,0 +1,13 @@
+{
+    "output": {
+        "filePath": "./docs/stonerdf-repopack.txt",
+        "headerText": "StoneRDF repo",
+        "removeComments": true
+    },
+    "ignore": {
+        "useDefaultPatterns": true,
+        "customPatterns": [
+            "*.log"
+        ]
+    }
+}
