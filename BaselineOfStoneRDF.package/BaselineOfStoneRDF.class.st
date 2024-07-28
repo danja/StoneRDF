@@ -3,7 +3,8 @@ BaselineOf subclass: #BaselineOfStoneRDF
     classVariableNames: ''
     package: 'BaselineOfStoneRDF'
 
-BaselineOfStoneRDF >> baseline: spec
+{ #category : #baselines }
+BaselineOfStoneRDF >> baseline: spec [
     <baseline>
     spec for: #common do: [
         "Define your project structure here"
@@ -15,3 +16,4 @@ BaselineOfStoneRDF >> baseline: spec
             group: 'Core' with: #('StoneRDF-Core');
             group: 'Tests' with: #('StoneRDF-Tests')
     ]
+]
